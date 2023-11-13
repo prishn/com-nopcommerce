@@ -94,7 +94,6 @@ public class Nop_Commerce_MultiBrowser {
 
         //Click on Login Button.
         WebElement loginButton = driver.findElement(By.xpath("//button[contains(text(),'Log in')]"));
-        //WebElement loginButton = driver.findElement(By.linkText("Log in"));
         loginButton.click();
 
         //Closing the browser automatically
